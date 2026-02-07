@@ -12,7 +12,7 @@ public record MTI(String value) {
         }
     }
 
-    // Modern switch expression (Venkat-style)
+    // Modern switch expression
     public String getCategory() {
         return switch (value.charAt(1)) {
             case '1' -> "Authorization";
